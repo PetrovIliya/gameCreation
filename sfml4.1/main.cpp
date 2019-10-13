@@ -3,11 +3,6 @@
 #include <SFML/System.hpp>
 #include <cmath>
 
-float toDegrees(float radians)
-{
-    return float(double(radians) * 180.0 / M_PI);
-}
-
 int main()
 {
     sf::RenderWindow window(sf::VideoMode({800, 600}), "Arrow");
