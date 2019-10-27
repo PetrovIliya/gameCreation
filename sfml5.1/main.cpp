@@ -6,19 +6,32 @@
 #include <iostream>
 
 #define BALL_SIZE 40
+#define QUANTITY_OF_BALLS 5
 
 constexpr unsigned WINDOW_WIDTH = 800;
 constexpr unsigned WINDOW_HEIGHT = 600;
 
-void init(std::vector<sf::CircleShape> &balls)
+void initColors(std::vector<sf::Color> &colors)
 {
-    for (int i = 0; i < 5; i++)
+    colors.push_back(sf::Color(0xFF, 0xFF, 0xFF));
+    colors.push_back(sf::Color::Yellow);
+    colors.push_back(sf::Color::Red);
+    colors.push_back(sf::Color::Green);
+    colors.push_back(sf::Color::Blue);
+    colors.push_back(sf::Color::Magenta);
+    colors.push_back(sf::Color::Cyan);
+}
+
+void initBalls(std::vector<sf::CircleShape> &balls, std::vector<sf::Color> &colors)
+{
+    for (int i = 0; i < QUANTITY_OF_BALLS; i++)
     {
         sf::CircleShape ball(BALL_SIZE);
         float x = std::rand() % 700 + 100;
         float y = std::rand() % 500 + 0;
+        sf::Color randColor = colors[std::rand() % 7 + 0];
         sf::Vector2f position = {x, y};
-        ball.setFillColor(sf::Color(0xFF, 0xFF, 0xFF));
+        ball.setFillColor(randColor);
         ball.setPosition(position);
         balls.push_back(ball);
     }
@@ -26,7 +39,7 @@ void init(std::vector<sf::CircleShape> &balls)
 
 float speedInit(std::vector<sf::Vector2f> &speed)
 {
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < QUANTITY_OF_BALLS; i++)
     {
         speed.push_back({100, 100});
     }
@@ -34,7 +47,7 @@ float speedInit(std::vector<sf::Vector2f> &speed)
 
 void setPositions(std::vector<sf::CircleShape> &balls, float deltaTime, std::vector<sf::Vector2f> &speed)
 {
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < QUANTITY_OF_BALLS; i++)
     {
         sf::Vector2f position = balls[i].getPosition();
         if (((position.x + 2 * BALL_SIZE >= WINDOW_WIDTH) && (speed[i].x > 0)) || (position.x < 0))
@@ -53,14 +66,17 @@ void setPositions(std::vector<sf::CircleShape> &balls, float deltaTime, std::vec
     }
 }
 
-sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Wave Moving Ball");
-const sf::Vector2f position = {10, 350};
+
 int main()
 {
+    sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Balls balls balls");
+    const sf::Vector2f position = {10, 350};
+    std::vector<sf::Color> colors;
     std::vector< sf::Vector2f> speed;
-    speedInit(speed);
     std::vector<sf::CircleShape> balls;
-    init(balls);
+    speedInit(speed);
+    initColors(colors);
+    initBalls(balls, colors);
     sf::Clock deltaClock;
 
     while (window.isOpen())
@@ -76,7 +92,7 @@ int main()
         const float deltaTime = deltaClock.restart().asSeconds();
         setPositions(balls, deltaTime, speed);
         window.clear();
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < QUANTITY_OF_BALLS; i++)
         {
             window.draw(balls[i]);
         }
