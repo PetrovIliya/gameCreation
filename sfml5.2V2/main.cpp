@@ -6,7 +6,7 @@
 #include <iostream>
 
 #define BALL_SIZE 30
-#define QUANTITY_OF_BALLS 5
+#define QUANTITY_OF_BALLS 10
 
 
 constexpr unsigned WINDOW_WIDTH = 800;
