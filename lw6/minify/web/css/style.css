@@ -1,0 +1,545 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+{
+  text-decoration: none;
+}
+
+.global_container
+{
+  background: url(../images/background.png) no-repeat;
+  margin: 0 auto;
+  background-position: left 50px;
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.background_block
+{
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.5;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.high_container
+{
+  max-width: 1000px;
+  width: 100%;
+  margin: 209px 0px 0px 480px;
+  position: relative;
+  z-index: 2;
+}
+
+/*-------------------*/
+
+.modal_form
+{
+  height: 880px;
+  position: fixed;
+  width: 35%;
+  max-width: 663px;
+  z-index: 12;
+  margin: 0 auto;
+  top: 5%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  display: none;
+}
+
+.modal_filter
+{
+  cursor: pointer;
+  background-color: #000000;
+  z-index: 11;
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.modal_form form
+{
+  margin: 33px auto 0 auto;
+  width: 80%;
+}
+
+.close_form_block 
+{
+  position: relative;
+  width: 100%;
+  max-width: 663px;
+  margin-top: 35px;
+}
+
+.feedback_title
+{
+  width: 80%;
+  margin: 0 auto;
+  font: 400 36px "Open Sans";
+  font-size: 36px;
+  color: #333333;
+}
+
+.close_form 
+{
+  float: right;
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-top: -7px;
+  cursor: pointer;
+}
+
+hr 
+{
+  background-color: #D3D3D3;
+  border: none; 
+  color: #D3D3D3; 
+  height: 2px; 
+  max-width: 200px;
+  width: 100%;
+  float: left;
+  margin-top: 21px;
+}
+
+
+.modal_form form p
+{
+  color: #333333;
+  font: 600 20px  "Open Sans";
+  margin: 28px 0 5px 0
+}
+
+.modal_form form p span
+{
+  color: #F02828;
+}
+
+.select_title
+{
+  margin: 27px 0 7px 0; !important;
+  line-height: 41px;
+}
+
+.gender_title
+{
+  margin: 44px 0 5px 0 !important;
+  line-height: 37px;
+}
+
+.textarea_title
+{
+  margin-top: 36px !important;
+}
+
+.gender_radio_button
+{
+  color: #333333;
+  font: 400 18px /36px "Open Sans";
+  margin-right: 34px;
+}
+
+.gender_radio_button input
+{
+  margin: 0 5px 0 4px;
+  transform: scale(0.9);
+  background-color: red;
+}
+
+.input_field
+{
+  max-width: 525px;
+  width: 100%;
+  height: 44px;
+  border-radius: 3px;
+  border: 2px solid #c9c9c9;
+  color: #555555;
+  font: 400 18px /32px "Open Sans";
+  padding-left: 13px;
+}
+
+.select_field
+{
+  max-width: 540px;
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  border: 2px solid #c9c9c9;
+  color: #555555;
+  font: 400 18px /32px "Open Sans";
+  padding-left: 13px;
+  -webkit-appearance: none;
+  background: url(../images/arrow_down.png) no-repeat;
+  background-position: 97% 18px;
+}
+
+
+.input_textarea
+{
+  max-width: 526px;
+  width: 100%;
+  height: 146px;
+  border-radius: 3px;
+  border: 2px solid #c9c9c9;
+  font: 400 18px /32px "Open Sans";
+  padding-left: 13px;
+  resize: none;
+}
+
+.modal_form form button
+{
+  display: block;
+  max-width: 220px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #15a98c;
+  color: #f5f5f5;
+  text-align: center;
+  margin-top: 41px;
+  font: 19px /47px "Georgia";
+}
+
+.modal_form form button:hover
+{
+  cursor: pointer;
+  background-color: #098d71;
+}
+
+.modal_form form input:hover,textarea:hover,select:hover 
+{ 
+  border: 2px solid #a6a6a6; 
+  border-radius: 3px; 
+} 
+
+.modal_form form input:focus,textarea:focus,select:focus 
+{ 
+  border: 2px solid #15a98c; 
+  border-radius: 3px;
+}
+
+
+/*-------------------*/
+
+.low_container
+{
+  max-width: 1230px;
+  width: 100%;
+  margin: 98px 0 0 360px;
+}
+
+
+.movi_title
+{
+  color: #333333;
+  font: 400 36px /42px "Open Sans";
+}
+
+.movi_container, .hiden_movi_container
+{
+  margin-top: 33px;
+}
+
+.hiden_movi_container
+{
+  display: none;
+  opacity: 0.1;
+}
+
+.movi_block_first_part, .movi_block_second_part
+{
+  float: left;
+  margin-right: 2%;
+  max-width: 283px;
+  width: 23%;
+}
+
+.movi_image
+{
+  max-width: 283px;
+  width: 100%;
+  height: 190px;
+  border-radius: 5px;
+}
+
+.movi_name
+{
+  margin: 20px 0 0 auto;
+  color: #333333;
+  font: 700 22px /32px "Open Sans";
+}
+
+.movi_description
+{
+  color: #555555;
+  margin-top: 15px;
+  font: 16px /28px "Georgia"
+}
+
+.all_films
+{
+  display: block;
+  max-width: 220px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #15a98c;
+  color: #f5f5f5;
+  text-align: center;
+  margin: 75px auto 0 auto;
+  font: 19px /50px "Georgia";
+}
+
+.all_films:hover
+{
+  background-color: #098d71;
+}
+
+/*--------------------*/
+
+
+.top_menu
+{
+  position: relative;
+  padding-left: 483px;
+}
+
+.top_menu a
+{
+  color: #333333;  
+  display: block;
+  float: left;
+  color: #333333;
+  margin-bottom: 0;
+  padding: 0 20px 0 18px;
+  font: 19px /50px "Georgia"
+}
+
+.top_menu li
+{
+   list-style: none;
+}
+
+.top_menu i 
+{
+  margin-right: 10px;
+}
+
+.top_menu a:hover
+{ 
+  color: #f5f5f5;
+  background-color: #15a98c;
+}
+
+
+/*-------------------*/
+
+.footer
+{
+  max-width: 1920px;
+  width: 100%;
+  margin-top: 46px;
+  background-color: #F5F5F5;
+  height: 70px;
+  color: #555555;
+  font: 16px /71px "Georgia"; 
+}
+
+.footer span 
+{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 708px;
+}
+
+/*-------------------*/
+.photo_block
+{
+  float: left;
+  margin-right: 60px;
+}
+
+.my_photo 
+{
+  border-radius: 5px;
+  background-color: #132d36;
+  width: 332px;
+  height: 351px;
+}
+
+/*----------------*/
+
+.quote_block
+{
+  max-width: 520px;
+  width: 100%;
+  float: left;
+}
+
+.quote
+{
+  color: #f5f5f5;
+  font: italic 100 28px /42px "Georgia"
+}
+
+.quote_author {
+  color: #f5f5f5;
+  font: 700 16px /47px "Open Sans";
+}
+
+blockquote 
+{
+  max-width: 500px;
+  width: 100%;
+  padding-left: 3px;
+  margin-top: 26px;
+  position: relative;
+}
+
+/*----------------*/
+
+.favorite_block
+{
+  max-width: 350px;
+  width: 100%;
+  float: left;
+  margin-right: 40px;
+  padding-top: 0.8px;
+}
+
+.list_title 
+{
+  color: #15a98c;
+  margin-bottom: 11.5px;
+  margin-top: 36px;
+  font: 600 24.5px "Open Sans"
+}
+
+.list_title_movi 
+{
+  color: #15a98c;
+  margin: 40px 0 11.5px 0;
+  font: 600 24.5px "Open Sans";
+}
+
+.list 
+{
+  max-width: 330px;
+  width: 100%;
+  color: #555555;
+  margin-left: 20px;
+  font: 19px /36px "Georgia";
+}
+
+.list ul
+{
+  margin-bottom: 42px;
+}
+
+/*-----------------*/
+
+.about_me_block
+{
+  max-width: 581px;
+  width: 100%;
+  float: left;
+}
+
+.about_me_block_hiden
+{
+  display: none;
+}
+
+.about_me_title
+{
+  color: #333333;
+  margin-top: 79px;
+  font: 600 48px /42px "Open Sans";
+}
+
+.rectangle 
+{
+  width: 60px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #45c3aa;
+  margin: 32px 0 45px 0;
+  border-width: 0px;
+}
+
+.about_me
+{
+  color: #555555;
+  font: 19px /32px "Georgia";
+}
+
+.about_me_description
+{
+  margin-bottom: 42px;
+}
+
+/*-------------------*/
+
+.hobi_block
+{
+  max-width: 562px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.hobi_title
+{
+  color: #333333;
+  margin-bottom: 16px;
+  font: 400 36px /42px "Open Sans";
+}
+
+.hobi
+{
+  font-size: 19px;
+  line-height: 32px;
+  color: #555555;
+  font-family: "Georgia";
+}
+
+/*---------------------*/
+
+.write_me_block
+{
+  letter-spacing: 1px;
+  color: #15a98b;
+  text-decoration: none;
+  font: 17px "Georgia";
+}
+
+.write_me_block span
+{
+  color: #098d72;
+  border-bottom: 1px solid #15a98b;
+  font: 17.5px "Georgia";
+}
+
+/*---------------------*/
+
+
+
+/*---------------------*/
+
+.clear
+{
+  clear: both;
+}

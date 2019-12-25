@@ -1,0 +1,595 @@
+
+@media screen and (max-width: 1700px)
+{
+  .top_menu 
+  {
+    padding: 0;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;  
+  }
+  
+  .high_container
+  {
+    margin: 209px auto 0px auto;
+  }
+  
+    .low_container
+  {
+    margin: 40px auto 0 auto;
+    width: 90%;
+  }
+  
+  .feedback_container
+  {
+    margin: 104px auto 0 auto;
+  }
+  
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1024px)
+{
+  .high_container
+  {
+    width: 80%;
+    margin-bottom: 45px;
+  }
+  
+  .rectangle
+  {
+    margin-bottom: 20px;
+  }
+  
+  .about_me_block
+  {
+    width: 50%;
+  }
+  
+  .feedback_title
+  {
+    width: 609px;
+  }
+  
+  .about_me_description
+  {
+    margin-bottom: 25px;
+  }
+  
+  .hobi_block
+  {
+    margin-bottom: 25px;
+  }
+  
+  .photo_block
+  {
+    margin-right: 50px;
+  }
+  
+  .my_photo
+  {
+    width: 330px;
+    height: 320px;
+  }
+  
+   .favorite_block
+  {
+    width: 41%;
+    margin-right: 5%;
+  }
+  
+  .quote_block
+  {
+    width: 49%
+  }
+      
+  .top_menu
+  {
+    width: 80%;
+  }
+  
+/*-------------------*/
+  
+  .low_container
+  {
+    width: 78%;
+  }
+  
+  .movi_title
+  {
+    line-height: 0;
+    font-size: 34px;
+  }
+  
+  .movi_block_first_part, .movi_block_second_part
+  {
+    width: 50%;
+    margin-top: 50px;
+  }
+  
+  .movi_block_second_part
+  {
+    margin-right: 0;
+  }
+  
+  .movi_block_first_part
+  {
+    margin: 30px 230px 0px 0;
+  }
+  
+  .all_films
+  {
+    margin-top: 50px;
+  }
+  
+  
+/*--------------------*/
+    
+  .feedback_container form
+  {
+    margin: 0 auto;
+    width: 45%;
+  }
+  
+  .feedback_title
+  {
+    margin: 0 auto;
+  }
+  
+  .feedback_title hr
+  {
+    width: 30%;
+  }
+  
+  .feedback_container 
+  {
+    margin: 75px auto 0 auto;
+  }
+  
+  .feedback_container form
+  {
+    margin: 50px auto 0 auto;
+    width: 45%;
+  }
+  
+  .feedback_container form button
+  {
+    margin-top: 50px;
+  }
+  
+  .feedback_title h2
+  {
+    font-size: 30px;
+    margin: 0 15px;
+  }
+  
+  .gender_radio_button input
+  {
+    margin-bottom: 35px;
+  }
+  
+    .feedback_title span
+  {
+    width: 751px;
+  }
+  
+  .feedback_title span hr
+  {
+    width: 25%
+  }
+  
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1023px)
+{
+   .high_container
+  {
+    width: 90%;
+    margin-top: 218px;
+  }
+  
+  .low_container
+  {
+    margin: 80px 0 0 5%;
+  }
+  
+  .feedback_container
+  {
+    margin-top: 70px;
+  }
+    
+  .my_photo
+  {
+    width: 300px;
+    height: 290px;
+  }
+  
+  .quote_block
+  {
+    width: 47%;
+  }
+  
+  .quote
+  {
+    font: italic 100 21px /28px "Georgia";
+  }
+  
+  .quote_author
+  {
+    font: 700 14px /48px "Open Sans";
+  }
+  
+  .favorite_block
+  {
+    width: 308px;
+  }
+  
+  .about_me_title
+  {
+    font-size: 37px;
+    margin-top: 58px;
+  }
+  
+  .about_me_block
+  {
+    width: 50%;
+  }
+  
+  .about_me_description 
+  {
+    margin-bottom: 20px;
+  }
+  
+  .hobi_title
+  {
+    font-size: 32px;
+  }
+  
+  .hobi_block
+  {
+    margin-bottom: 25px;
+  }
+  
+  /*--------------*/
+  
+  .movi_title
+  {
+    font-size: 32px;
+  }
+  
+ .movi_block_first_part, .movi_block_second_part
+  {
+    width: 40%;
+  }
+  
+  .movi_block_first_part
+  {
+    margin: 50px 17% 0px 0;
+  }
+  
+  /*-----------------*/
+  
+  .feedback_title h2
+  {
+    font-size: 27px;
+    margin: 0 15px;
+  }  
+  
+  .gender_radio_button input
+  {
+    margin-bottom: 30px;
+  }
+  
+  /*--------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 767px)
+  {
+    .global_container
+    {
+      background: none;
+    }
+    
+    .high_container
+    {
+      margin-top: 35px;
+    }
+    
+    .background_block
+    {
+      display: none;
+    }
+    
+    .top_menu span
+    {
+      display: none;
+    }
+    
+    .top_menu
+    {
+      z-index: 10;
+      padding: 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      background-color: #ffffff
+    }
+    
+    .top_menu a
+    {
+      padding: 0 14% 0 14%;
+      line-height: 35px;
+    }
+    
+    .quote
+    {
+      color: #848484;
+      font: italic 100 18px /28px "Georgia";
+    }
+    
+    .quote_author
+    {
+      color: #333333;
+      font: 700 14px /29px "Open Sans";
+    }
+    
+    .photo_container
+    {
+      width: 90%;
+    }
+    
+    .photo_block
+    {
+      margin-right: 30px;
+    }
+    
+    .my_photo 
+    { 
+      margin-right: 0;
+      width: 200px;
+      height: 190px;
+    }
+    
+    .quote_block
+    {
+      width: 43%;
+    }
+    
+    .about_me_title 
+    {
+      font-size: 30px;
+      margin-top: 120px;
+      margin-left: -231px;
+      line-height: 0;
+    }
+    
+    .rectangle
+    {
+      margin-left: -231px;
+      margin-bottom: 20px;
+    }
+    
+    .about_me_block
+    {
+      display: none;
+    }
+    
+    .about_me_block_hiden
+    {
+      display: block;
+      margin-bottom: 50px;
+    }
+    
+    .writers_block
+    {
+      width: 40%;
+      float: left;
+      float: left;
+    }
+    
+    .films_block
+    {
+      width: 40%;
+      float: right;
+    }
+    
+    .list_title
+    {
+      font-size: 20px;
+      margin: 0;
+    }
+    
+    .list_title_movi
+    {
+      font-size: 20px;
+      margin-top: 0;
+    }
+    
+    .favorite_block
+    {
+      float: none;
+      max-width: 1000px;
+      width: 100%;
+    }
+    
+    .favorite_block li
+    {
+      font-size: 16px;
+    }
+    
+    /*---------------------*/
+    
+    .low_container
+    {
+      width: 90%;
+      margin: 80px auto 0 auto;
+    }
+    
+    .movi_title
+    {
+      width: 300px;
+    }
+    
+    .list_title_movi
+    {
+      margin-top: 50px;
+    }
+    
+    .movi_block_first_part, .movi_block_second_part
+    {
+      float: none;
+      margin: 0;
+      margin-top: 70px;
+      width: 282px;
+    }
+    
+    /*---------------------*/
+    
+    .feedback_title
+    {
+      width: 100%;
+    }
+    
+    .feedback_title span
+    {
+      width: 461px;
+    }
+    
+    
+    .feedback_title h2
+    {
+      font-size: 24px;
+    }
+    
+    
+     .feedback_container p
+    {
+      font-size: 16px;
+    }
+    
+     .feedback_container input
+    {
+      font-size: 16px;
+    }
+  
+    .gender_radio_button 
+    {
+      margin-right: 14px;   
+    }
+    
+    .footer span
+    {
+      font-size: 13px;
+      width: 90%;
+    }
+  }
+  
+  /*--------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 750px)
+  {
+    .about_me_title
+    {
+      margin-top: 100px;
+    }
+  }
+  
+  /*--------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 667px)
+  {
+    .about_me_title
+    {
+      margin-top: 95px;
+    }
+    
+    .footer span
+    {
+      font-size: 10px;
+      width: 446px;
+    }
+  }
+  
+  /*--------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 600px)
+  {
+    .about_me_title
+    {
+      margin-top: 60px; 
+    }
+  }
+  
+  /*--------------------------------------------------------------------------------------------*/
+  
+    @media screen and (max-width: 597px)
+  {
+    .about_me_title
+    {
+      margin-top: 40px; 
+    }
+  }
+  
+  /*--------------------------------------------------------------------------------------------*/
+  
+  @media screen and (max-width: 509px)
+  {
+    .top_menu a 
+    {
+      padding: 0 12% 0 12%;
+    }
+    
+    .photo_block
+    {
+      margin-left: 23%;
+    }
+    
+    .quote_block 
+    {
+      margin-left: 0;
+      width: 75%;
+    }
+    
+    blockquote
+    {
+      display: none;
+    }
+    
+    .about_me_title
+    {
+      margin-left: 0;
+    }
+    
+    .rectangle
+    {
+      margin-left: 0;
+    }
+    
+    .feedback_container form
+    {
+      width: 71%;
+    }
+    
+    .feedback_title span 
+    {
+      width: 305px;
+    }
+    
+    .feedback_title span hr
+    {
+      width: 20%;
+    }
+    
+    .feedback_title span h2
+    {
+      font-size: 21px;
+    }
+    
+    .footer span
+    {
+      font-size: 7px;
+      width: 320px;
+    }
+  }
